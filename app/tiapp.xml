@@ -37,7 +37,24 @@
                 <string>UIStatusBarStyleDefault</string>
             </dict>
         </plist>
-
+        <extensions>
+            <extension projectPath="/Developer/code/DocProviderExample/extension/My Cool App/My Cool App.xcodeproj">
+                <target name="MyCoolAppDocProvider">
+                    <provisioning-profiles>
+                        <device>39a90305-f051-4320-a03a-d85553661834</device>
+                        <dist-appstore/>
+                        <dist-adhoc/>
+                    </provisioning-profiles>
+                </target>
+                <target name="MyCoolAppDocProviderFileProvider">
+                    <provisioning-profiles>
+                        <device>72e91e39-e475-4eda-b06e-96893445ec4e</device>
+                        <dist-appstore/>
+                        <dist-adhoc/>
+                    </provisioning-profiles>
+                </target>
+            </extension>
+        </extensions>
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>
     <mobileweb>
