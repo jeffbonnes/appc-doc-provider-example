@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F49C5CC1B040FED00D322C9 /* DocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49C5CB1B040FED00D322C9 /* DocumentPickerViewController.m */; };
+		1F49C5CE1B040FED00D322C9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49C5CD1B040FED00D322C9 /* MainInterface.storyboard */; };
+		1F49C5DA1B040FED00D322C9 /* FileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49C5D91B040FED00D322C9 /* FileProvider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F49C5C41B040FED00D322C9 /* MyCoolAppDocProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyCoolAppDocProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49C5C81B040FED00D322C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49C5C91B040FED00D322C9 /* MyCoolAppDocProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyCoolAppDocProvider.entitlements; sourceTree = "<group>"; };
+		1F49C5CA1B040FED00D322C9 /* DocumentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentPickerViewController.h; sourceTree = "<group>"; };
+		1F49C5CB1B040FED00D322C9 /* DocumentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentPickerViewController.m; sourceTree = "<group>"; };
+		1F49C5CD1B040FED00D322C9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		1F49C5D31B040FED00D322C9 /* MyCoolAppDocProviderFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyCoolAppDocProviderFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49C5D61B040FED00D322C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49C5D71B040FED00D322C9 /* MyCoolAppDocProviderFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyCoolAppDocProviderFileProvider.entitlements; sourceTree = "<group>"; };
+		1F49C5D81B040FED00D322C9 /* FileProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProvider.h; sourceTree = "<group>"; };
+		1F49C5D91B040FED00D322C9 /* FileProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileProvider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F49C5C11B040FED00D322C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49C5D01B040FED00D322C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F49C5B91B040F5000D322C9 = {
+			isa = PBXGroup;
+			children = (
+				1F49C5C61B040FED00D322C9 /* MyCoolAppDocProvider */,
+				1F49C5D41B040FED00D322C9 /* MyCoolAppDocProviderFileProvider */,
+				1F49C5C51B040FED00D322C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F49C5C51B040FED00D322C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C5C41B040FED00D322C9 /* MyCoolAppDocProvider.appex */,
+				1F49C5D31B040FED00D322C9 /* MyCoolAppDocProviderFileProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F49C5C61B040FED00D322C9 /* MyCoolAppDocProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C5CA1B040FED00D322C9 /* DocumentPickerViewController.h */,
+				1F49C5CB1B040FED00D322C9 /* DocumentPickerViewController.m */,
+				1F49C5CD1B040FED00D322C9 /* MainInterface.storyboard */,
+				1F49C5C71B040FED00D322C9 /* Supporting Files */,
+			);
+			path = MyCoolAppDocProvider;
+			sourceTree = "<group>";
+		};
+		1F49C5C71B040FED00D322C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C5C81B040FED00D322C9 /* Info.plist */,
+				1F49C5C91B040FED00D322C9 /* MyCoolAppDocProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F49C5D41B040FED00D322C9 /* MyCoolAppDocProviderFileProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C5D81B040FED00D322C9 /* FileProvider.h */,
+				1F49C5D91B040FED00D322C9 /* FileProvider.m */,
+				1F49C5D51B040FED00D322C9 /* Supporting Files */,
+			);
+			path = MyCoolAppDocProviderFileProvider;
+			sourceTree = "<group>";
+		};
+		1F49C5D51B040FED00D322C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F49C5D61B040FED00D322C9 /* Info.plist */,
+				1F49C5D71B040FED00D322C9 /* MyCoolAppDocProviderFileProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F49C5C31B040FED00D322C9 /* MyCoolAppDocProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49C5DB1B040FED00D322C9 /* Build configuration list for PBXNativeTarget "MyCoolAppDocProvider" */;
+			buildPhases = (
+				1F49C5C01B040FED00D322C9 /* Sources */,
+				1F49C5C11B040FED00D322C9 /* Frameworks */,
+				1F49C5C21B040FED00D322C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCoolAppDocProvider;
+			productName = MyCoolAppDocProvider;
+			productReference = 1F49C5C41B040FED00D322C9 /* MyCoolAppDocProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F49C5D21B040FED00D322C9 /* MyCoolAppDocProviderFileProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49C5DE1B040FED00D322C9 /* Build configuration list for PBXNativeTarget "MyCoolAppDocProviderFileProvider" */;
+			buildPhases = (
+				1F49C5CF1B040FED00D322C9 /* Sources */,
+				1F49C5D01B040FED00D322C9 /* Frameworks */,
+				1F49C5D11B040FED00D322C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCoolAppDocProviderFileProvider;
+			productName = MyCoolAppDocProviderFileProvider;
+			productReference = 1F49C5D31B040FED00D322C9 /* MyCoolAppDocProviderFileProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F49C5BA1B040F5000D322C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					1F49C5C31B040FED00D322C9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LGPA3VXRN2;
+					};
+					1F49C5D21B040FED00D322C9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LGPA3VXRN2;
+					};
+				};
+			};
+			buildConfigurationList = 1F49C5BD1B040F5000D322C9 /* Build configuration list for PBXProject "My Cool App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F49C5B91B040F5000D322C9;
+			productRefGroup = 1F49C5C51B040FED00D322C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F49C5C31B040FED00D322C9 /* MyCoolAppDocProvider */,
+				1F49C5D21B040FED00D322C9 /* MyCoolAppDocProviderFileProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F49C5C21B040FED00D322C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49C5CE1B040FED00D322C9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49C5D11B040FED00D322C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F49C5C01B040FED00D322C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49C5CC1B040FED00D322C9 /* DocumentPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49C5CF1B040FED00D322C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49C5DA1B040FED00D322C9 /* FileProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F49C5BE1B040F5000D322C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1F49C5BF1B040F5000D322C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1F49C5DC1B040FED00D322C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MyCoolAppDocProvider/MyCoolAppDocProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MyCoolAppDocProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F49C5DD1B040FED00D322C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MyCoolAppDocProvider/MyCoolAppDocProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MyCoolAppDocProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F49C5DF1B040FED00D322C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MyCoolAppDocProviderFileProvider/MyCoolAppDocProviderFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MyCoolAppDocProviderFileProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F49C5E01B040FED00D322C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MyCoolAppDocProviderFileProvider/MyCoolAppDocProviderFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MyCoolAppDocProviderFileProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F49C5BD1B040F5000D322C9 /* Build configuration list for PBXProject "My Cool App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49C5BE1B040F5000D322C9 /* Debug */,
+				1F49C5BF1B040F5000D322C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49C5DB1B040FED00D322C9 /* Build configuration list for PBXNativeTarget "MyCoolAppDocProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49C5DC1B040FED00D322C9 /* Debug */,
+				1F49C5DD1B040FED00D322C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49C5DE1B040FED00D322C9 /* Build configuration list for PBXNativeTarget "MyCoolAppDocProviderFileProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49C5DF1B040FED00D322C9 /* Debug */,
+				1F49C5E01B040FED00D322C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F49C5BA1B040F5000D322C9 /* Project object */;
+}
