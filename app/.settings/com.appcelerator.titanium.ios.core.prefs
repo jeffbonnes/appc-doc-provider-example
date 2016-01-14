@@ -1,8 +1,9 @@
 eclipse.preferences.version=1
 iosLaunchConfigurationAttributes/ATTR_MINIFY=true
-iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=My Cool App
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=ExtensionExample
+iosLaunchConfigurationAttributes/ATTR_UPLOAD_DEBUG_SYMBOLS=false
 iosLaunchConfigurationAttributes/appid=com.geeksinc.mycoolapp
 iosLaunchConfigurationAttributes/certificate=Jeffrey Bonnes (G6UZZCGDHQ)
 iosLaunchConfigurationAttributes/keychain=
-iosLaunchConfigurationAttributes/sdk_version=8.3
-iosLaunchConfigurationAttributes/uuid=bba1137d-f881-4d38-9384-b71f7154e0b3
+iosLaunchConfigurationAttributes/sdk_version=9.2
+iosLaunchConfigurationAttributes/uuid=2cc3e13c-8fef-4f4d-9de8-59275f7be6fb
