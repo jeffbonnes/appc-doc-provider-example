@@ -41,14 +41,14 @@
             <extension projectPath="/Developer/code/DocProviderExample/extension/My Cool App/My Cool App.xcodeproj">
                 <target name="MyCoolAppDocProvider">
                     <provisioning-profiles>
-                        <device>39a90305-f051-4320-a03a-d85553661834</device>
+                        <device>b2eee3d6-4075-4cf0-abcb-b9b4a9ba8d08</device>
                         <dist-appstore/>
                         <dist-adhoc/>
                     </provisioning-profiles>
                 </target>
                 <target name="MyCoolAppDocProviderFileProvider">
                     <provisioning-profiles>
-                        <device>72e91e39-e475-4eda-b06e-96893445ec4e</device>
+                        <device>fcf9a8e7-8537-417e-8877-5e32e5fde597</device>
                         <dist-appstore/>
                         <dist-adhoc/>
                     </provisioning-profiles>
@@ -73,6 +73,6 @@
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>5.1.2.GA</sdk-version>
+    <sdk-version>5.4.0.GA</sdk-version>
     <property name="appc-app-id" type="string">5695b23b75577fec0471e2a8</property>
 </ti:app>
